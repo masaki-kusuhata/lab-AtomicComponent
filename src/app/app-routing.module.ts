@@ -6,6 +6,7 @@ import { SignupComponent } from './ecosystems/signup/signup.component';
 
 const routes: Routes = [
   { path: 'signin', component: SigninComponent },
+  { path: '', component: SigninComponent },
   { path: 'signup', component: SignupComponent }
 ];
 
