@@ -1,0 +1,11 @@
+<div>
+  <label for="">メールアドレス：</label>
+  <app-atom-email (event)="onReceiveEventFromEmail($event)"></app-atom-email>
+</div>
+<div>
+  <label for="">パスワード：</label>
+  <app-atom-password (event)="onReceiveEventFromPassword($event)"></app-atom-password>
+</div>
+<div>
+  <app-atom-button [value]='singinButtonValue' (event)="onReceiveEventFromSinginButton($event)"></app-atom-button>
+</div>
