@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter} from '@angular/core';
-import { Authentication } from '../../models/authentication/authentication';
+import { Authentication } from '../../../models/authentication/authentication';
 
 @Component({
   selector: 'app-ecosytem-signin',
